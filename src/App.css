@@ -1,0 +1,85 @@
+*{
+  margin: 2px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+max-width: 1440px;
+}
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.wrapper{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end; */
+}
+
+.wrapper{
+  
+}
+
+.Top_Component{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: flex-end;
+}
+
+.All_Search{
+  width: 30%;
+}
+
+.Service_line{
+  width: 43%;
+}
+.Location{
+  width: 25%;
+
+}
+.Find_clr_btn{
+  margin-top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.Btn_Clear{
+margin-left: 10px;
+padding: 5px 20px;
+}
+.Btn_Find{
+  margin-left: 10px;
+  padding: 5px 20px;
+}
+
+input{
+  text-transform: uppercase;
+}
+
+.Location_use_Member{
+  margin-left: 10px;
+
+}
+.LocationClear{
+  margin-left: 130px;
+}
+.del_btn{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+label{
+  font-weight: 500;
+}
+.Service_line_Delete{
+  padding: 5px 20px;
+}
+
+.search_for_Practioners{
+  margin-left: 70px;
+}
+
+.Location_Radius{
+  width: 50px;
+}

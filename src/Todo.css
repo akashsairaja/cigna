@@ -1,0 +1,15 @@
+.todo-name{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.todo-table{
+    display: flex;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,192 @@
+.login-top{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    padding-top: 10px;
+    box-shadow: 0px 0px 3px 0px grey;
+}
+
+.hc-login{
+    padding: 1px;
+    box-shadow: 0px 0px 2px 0px grey;
+    background-color:#F1F2F3;
+    color: rgb(13, 91, 122);
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.hc-code{
+    background-color: rgb(243, 238, 197);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ .form-data{
+     margin-top: 15px;
+     margin-bottom: 15px;
+     margin-left:40px;
+     
+}
+ 
+label {
+    width:80px;
+    clear:left;
+    text-align:left;
+    padding-right:10px;
+    margin-bottom:10px;
+}
+input{
+    margin-bottom:10px;
+}
+
+/* .form-name{
+    clear:left;
+    text-align:center;
+    margin-right: 120px;
+}
+.form-control-name{
+    margin-left: 53px;
+    margin-bottom: 10px;
+}
+
+.form-domain{
+    clear:left;
+    text-align:center;
+    margin-right: 120px;
+}
+.form-control-domain{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.form-password{
+    clear:left;
+    text-align:center;
+    margin-right: 125px; 
+}
+
+.form-control-password{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}*/
+
+/* .form-application{
+    /* clear:left; */
+    /* text-align:center; */
+    /* margin-right:50px;  */
+/* } */
+
+ 
+/* .application-names{
+     margin-right: 78px; 
+    margin-bottom: 10px; 
+    width: 250px;
+} */
+
+/* .form-mts{
+    /* clear:left; */
+    /* text-align:center; */
+    /* margin-right: 50px; */
+/* } */
+ 
+/* .mts-names{
+    margin-bottom: 10px; 
+     margin-right: 78px; 
+    width: 250px;
+}  */
+
+.swal2-title{
+    font-size:20px!important;
+}
+
+input, label {
+    float:left;
+    margin-bottom: 10px;
+	
+}
+ .button{
+    display: flex;
+    margin-left:25%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+select{
+    float:left;
+    margin-bottom: 10px; 
+    width: 270px;
+}
+
+
+.ok-button{
+    margin-right: 20px;
+}
+
+.health-Login{
+    text-align: start;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.color-code{
+    background-color: #F1F2F3;
+    padding-top: 10px;
+}
+
+.description{
+    text-align: left;
+    font-size: 12px;
+    box-shadow: 0px 0px 2px 0px grey;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+fieldset{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mts-login{
+    margin-left: -150px;
+}
+
+.swal2-container.swal2-center>.swal2-popup{
+    width: 25%;
+}
+
+.swal2-icon.swal2-warning.swal2-icon-show{
+    margin: 1.0em auto .6em;
+}
+.swal2-html-container{
+    margin: 10px !important;
+}
+.swal2-icon{
+    width: 4em !important;
+    height: 4em !important;
+}
+
+.domain_style{
+    margin-right:20px;
+}
+
+.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{
+    left: 7px !important;
+}
+.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{
+    right: 9px !important;
+}
+.swal2-icon.swal2-error.swal2-icon-show {
+    font-size: 14px !important;
+}
