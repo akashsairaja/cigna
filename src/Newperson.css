@@ -1,9 +1,111 @@
-.person-names{
-    float: none;
-    margin-bottom: 0px !important;
-    width: 270px;
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-.person-data{
-        float: none; 
-    margin-bottom: 0px !important;
+
+.dialog-new-person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+}
+.main-div {
+  width: 900px;
+  height: 500px;
+  /* margin: 20px auto 0; */
+  /* overflow: hidden; */
+  font-size: 14px;
+  background-color: #f1f2f3;
+  border: 1px solid #f1f2f3;
+  padding: 0 0.5rem 0.5rem;
+}
+
+.dialog-new-person label,
+.dialog-new-person legend {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+.dialog-new-person input {
+  line-height: 1;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: -1px -1px 1px #2c2c2c;
+  /* max-width: 10rem; */
+  margin: 4px;
+}
+.dialog-new-person input[type="checkbox"] {
+  border-radius: 0;
+  box-shadow: -1px -1px 1px #2c2c2c;
+  margin: 4px;
+
+  width: 1.4rem;
+  height: 1rem;
+}
+.dialog-new-person fieldset {
+  margin: 0;
+  padding: 0 0 0 1.3rem;
+  border-color: #6e6e6e !important;
+}
+.dialog-new-person thead tr th {
+  padding: 0 1rem;
+}
+
+.form-control {
+  padding: 0 !important;
+}
+.form-select {
+  padding: 0 !important;
+}
+
+.dialog-new-person .btn-custom {
+  min-width: 64px;
+  margin-bottom: 5px;
+  border: 1px solid #2c2c2c;
+  box-shadow: 1px 1px 0 #2c2c2c;
+  padding: 0.2rem 0.6rem;
+}
+
+.dialog-new-person .form-check {
+  display: flex;
+  min-height: 1.5rem;
+  padding-left: 1.5em;
+  margin-bottom: 0.125rem;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.form-check #checkRemember {
+  margin-right: 10px;
+}
+
+.main-div .row.lt-email {
+  padding-left: 15px;
+}
+/* @media (min-width: 1200px) {
+  legend {
+    font-size: 16px !important;
+  }
+} */
+
+.footer-div {
+  margin: 0px 20px 0px 0px;
+}
+
+.footer-div .btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer-div .btns .btn.btn-primary {
+  margin-right: 20px;
+  margin-top: 5px;
 }
